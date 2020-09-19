@@ -1,0 +1,182 @@
+hr{
+    width: 70%;
+}
+
+body{
+    font-family: 'Archivo', sans-serif;
+}
+
+.navbar{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(41, 43, 44, 0.5);
+    border-bottom: 1px solid darkslategrey;
+    
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    
+}
+.nav-link{
+    color: whitesmoke;
+}
+
+.navbar-brand{
+    color: whitesmoke;
+}
+
+
+#title .h1, h1{
+    font-size: 3.0rem;
+}
+
+#title .h5, h5{
+    font-size: 1.5rem;
+}
+
+
+#landingBackground{
+    position: absolute;
+    height: 100vh;
+    width: auto;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#landingBackground img{
+    object-fit: cover;          /*positioning the image in the center of the div*/
+    filter: blur(7px);
+    width: 100%;
+    min-height: 100%;
+    transform: scale(1.1);     /*used to remove the white halo created by the css blur() filter*/
+   
+}
+
+#landingScreen{
+height: 100vh;
+display: flex;
+align-items: center;
+background: transparent;
+}
+
+#title{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3);
+}
+
+
+#title hr{
+    width: 60%;
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    opacity: 0.5;
+}
+
+#landingButtons{
+    width: 90%;
+    margin: 30px auto 0px auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#landingButtons .btn{
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    
+}
+
+#landingButtons button:hover{
+    background-color: wheat;
+    color: darkslategray;
+    
+}
+
+#aboutSection{
+    width: 90%;
+    margin: 50px auto 0 auto;
+}
+
+.sectionHead{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#projectSection{
+    width: 90%;
+    margin: 50px auto 0 auto;
+    
+}
+
+.projectExample img {
+    
+    max-width: 90%;	
+    height: auto;		
+    margin: 0 auto;
+    display: block;
+          
+}
+
+.projectDescription{
+    margin-top: 20px;
+}
+
+#contactSection{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.contactPoint{
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+}
+
+.contactPoint img{
+    height: 2rem;
+    margin-right: 10px;
+    
+}
+
+.contactPointInvert img{
+    filter: invert();
+}
+
+#availability{
+    color: green;
+    font-weight: bold;
+}
+
+
+.footer{
+    position: absolute;  
+    width: 100%;
+    background-color: #292b2c;
+    padding-top: 10px;
+    text-align: center;
+    color: whitesmoke;
+    
+    
+}
+
+
+.copyright{
+    margin: 10px auto;
+    text-align: center; 
+    
+}
+/*
+@keyframes example {
+    from {transform: scale(1.0)}
+    to {transform: scale(1.2)}
+}*/
