@@ -96,7 +96,7 @@ background: transparent;
 }
 
 #landingButtons button:hover{
-    background-color: wheat;
+    background-color: whitesmoke;
     color: darkslategray;
     
 }
@@ -169,10 +169,19 @@ background: transparent;
     
 }
 
+.footerInfo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 .copyright{
-    margin: 10px auto;
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
     text-align: center; 
+    background-color: #101010;
     
 }
 /*
