@@ -23,6 +23,10 @@ body{
     color: whitesmoke;
 }
 
+.navbar a:hover  {
+    color: #6195ce
+}
+
 .navbar-brand{
     color: whitesmoke;
 }
