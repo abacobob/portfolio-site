@@ -24,7 +24,8 @@ body{
 }
 
 .navbar a:hover  {
-    color: #6195ce
+    /*color: #6195ce */
+    color: #fc6a03;
 }
 
 .navbar-brand{
