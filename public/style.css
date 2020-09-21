@@ -10,9 +10,9 @@ body{
     position: absolute;
     width: 100%;
     z-index: 1;
-    background-color: rgba(41, 43, 44, 0.5);
-    border-bottom: 1px solid darkslategrey;
-    
+    /*background-color: rgba(41, 43, 44, 0.5);*/
+    background-color: transparent;
+        
 }
 
 .navbar-toggler-icon {
@@ -51,7 +51,7 @@ body{
 
 #landingBackground img{
     object-fit: cover;          /*positioning the image in the center of the div*/
-    filter: brightness(0.7);
+    filter: blur(4px);
     width: 100%;
     min-height: 100%;
     transform: scale(1.1);     /*used to remove the white halo created by the css blur() filter*/
@@ -92,11 +92,11 @@ background: transparent;
 }
 
 #landingButtons .btn{
-    background-color: transparent;
+    background-color: rgba(41, 43, 44, 0.5);
     border-radius: 5px;
     border: 2px solid whitesmoke;
     color: whitesmoke;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
     
 }
 
@@ -124,14 +124,11 @@ background: transparent;
 }
 
 #projectSection a{
-    color: #212529;
-    text-decoration: underline;
+    color: #0275d8;
+
 }
 
-#projectSection a:hover{
-    color: #0275d8;
-    text-decoration: underline;
-}
+
 
 .projectExample img {
     
@@ -184,14 +181,10 @@ background: transparent;
 }
 
 .footer a{
-    color: whitesmoke;
-    text-decoration: underline;
+    color: #0275d8;
+   
 }
 
-.footer a:hover{
-    color: #0275d8;
-    text-decoration: underline;
-}
 
 .footerInfo{
     margin-top: 20px;
