@@ -8,7 +8,7 @@ This site is built primarily with HTML and CSS, using the bootstrap 4 library fo
 
 ## NPM dependencies
 
-* Express: used for the server-side delivery of static web content
+* Express: used for the server-side delivery of static web content.
 * Nodemon: Used for streamlining server development; not required in the final build.
 
 ## Run this project
