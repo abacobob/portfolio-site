@@ -32,6 +32,11 @@ body{
     color: whitesmoke;
 }
 
+/*
+.nav-item{
+    text-align: right;
+}*/
+
 
 #title .h1, h1{
     font-size: 3.0rem;
@@ -112,6 +117,13 @@ background: transparent;
     margin: 50px auto 0 auto;
 }
 
+#aboutSection ul{
+        display: inline-block;
+        text-align: left;
+       
+    
+}
+
 .sectionHead{
     width: 90%;
     margin: 0 auto;
@@ -142,6 +154,8 @@ background: transparent;
 
 .projectDescription{
     margin-top: 20px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 #contactSection{
@@ -189,7 +203,6 @@ background: transparent;
 
 .footerInfo{
     margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 
